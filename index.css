@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#main-board {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    flex: auto;
+    height: 500px;
+    width: 500px
+}
+
+.row {
+    display: flex;
+    flex: auto;
+}
+
+.gridbox {
+    border: .25px solid grey;
+    flex: auto;
+    flex-basis: 20px;
+}
+
+.input-box {
+    margin-top: 10px;
+    font-size: large;
+}
+
+p {
+    text-align: center;
+}
+
+#reset {
+
+}
