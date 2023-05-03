@@ -1,9 +1,16 @@
+
 body {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 50px;
+}
+
+.colors {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
 }
 
 #main-board {
@@ -37,6 +44,3 @@ p {
     text-align: center;
 }
 
-#reset {
-
-}

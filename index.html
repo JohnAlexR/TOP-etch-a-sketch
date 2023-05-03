@@ -9,15 +9,26 @@
     <script src="index.js" defer></script>
 </head>
 <body>
-    <div id="main-board">
-
+    <div class="colors">
+        <button id="black" class="color-btn">Black</button>
+        <button id="aqua" class="color-btn">Aqua Blue</button>
+        <button id="sky-blue" class="color-btn">Sky Blue</button>
+        <button id="blue" class="color-btn">Blue</button>
+        <button id="dodger-blue" class="color-btn">Dodger Blue</button>
+        <button id="midnight-blue" class="color-btn">Midnight Blue</button>
     </div>
-    <div id="input-container">
-        <input type="number" max="100" class="input-box" id="height-input" name="height" placeholder="height">
-        <input type="number" max="100" class="input-box" id="width-input" name="width" placeholder="width">
-        <button id="generate-grid">Generate Grid</button>
-        <p>Press Any Key To Color</p>
-        <button id="reset">Reset</button>
+    <div class="main">
+        <div id="main-board">
+
+        </div>
+        <div id="input-container">
+            <input type="number" max="100" class="input-box" id="height-input" name="height" placeholder="height">
+            <input type="number" max="100" class="input-box" id="width-input" name="width" placeholder="width">
+            <button id="generate-grid">Generate Grid</button>
+            <p>Press Any Key To Color</p>
+            <button id="reset">Reset</button>
+            <h4 id='color-toggle'>Coloring is: OFF</h4>
+        </div>
     </div>
     
 </body>
